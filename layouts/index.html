@@ -5,18 +5,24 @@
 {{ define "main" }}
     <div class="content-center">
         <main>
-            <div>
-                {{ if .Site.Params.Portrait.Path }}
-                <img src="{{ .Site.Params.Portrait.Path }}" class="circle" alt="{{ .Site.Params.Portrait.Alt }}" style="max-width:{{ .Site.Params.Portrait.MaxWidth }}" />
-                {{ end }}
+            <div style="text-align: center; max-width: 600px; margin: 0 auto;">
+                <p style="font-size: 2rem; font-weight: bold; line-height: 1.3; margin-bottom: 2em;">
+                    Your Agents will break.<br>
+                    We make sure it happens<br>
+                    on your own terms!
+                </p>
 
-                <h1>{{ .Site.Params.heroHeadline }}</h1>
-
-                <h1 style="margin-top: 1.5em;">{{ .Site.Params.heroName }}</h1>
-                <h2>{{ .Site.Params.heroTagline }}</h2>
+                <p style="font-size: 2.5rem; font-weight: bold; line-height: 1.2; margin-bottom: 0.3em;">
+                    Malleo
+                </p>
+                <p style="font-size: 1.3rem; line-height: 1.4;">
+                    Hardening Your AI by breaking it first<br>
+                    using Adversarial Testing and<br>
+                    Automated Cognitive Red Teaming.
+                </p>
 
                 {{- with .Site.Params.social }}
-                    <div>
+                    <div style="margin-top: 2em;">
                         {{ partial "social-icons.html" . }}
                     </div>
                 {{- end }}

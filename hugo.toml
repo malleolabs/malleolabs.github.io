@@ -1,10 +1,12 @@
 baseURL = 'https://malleo.dev/'
 languageCode = 'en-us'
-title = 'Hardening Your AI by breaking it first'
+title = 'Malleo - Hardening Your AI by breaking it first'
 theme = 'hello-friend-ng'
 
 [params]
-  homeSubtitle = "Your Agents will break. We make sure it happens on your own terms through adversarial testing and cognitive red teaming."
+  heroHeadline = "Your Agents will break. We make sure it happens on your own terms!"
+  heroName = "Malleo:"
+  heroTagline = "Hardening Your AI by breaking it first through adversarial testing and cognitive red teaming."
   enableThemeToggle = true
 
   [params.logo]

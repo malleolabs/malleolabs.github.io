@@ -8,6 +8,7 @@ theme = 'hello-friend-ng'
   heroName = "Malleo:"
   heroTagline = "Hardening Your AI by breaking it first through adversarial testing and cognitive red teaming."
   enableThemeToggle = true
+  customCSS = ["css/custom.css"]
 
   [params.logo]
     logoMark     = ">"

@@ -1,0 +1,23 @@
+.header {
+  background: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  .header {
+    background: #232425;
+  }
+}
+
+@media (prefers-color-scheme: light) {
+  .header {
+    background: #fff;
+  }
+}
+
+[data-theme=dark] .header {
+  background: #232425;
+}
+
+[data-theme=light] .header {
+  background: #fff;
+}
